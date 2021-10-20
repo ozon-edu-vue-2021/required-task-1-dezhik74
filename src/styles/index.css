@@ -10,6 +10,7 @@ img {
     width: 100%;
     max-width: 100%;
     display: bloсk;
+    border-radius: 6px;
 }
 
 a {
@@ -83,23 +84,6 @@ a {
     overflow: hidden;
     width: 100%;
     min-height: 100px;
-    padding: 2px;
-}
-
-a:nth-child(n) {
-    background-color: #EFEBE9;
-}
-
-a:nth-child(2n) {
-    background-color: #D7CCC8;
-}
-
-a:nth-child(3n) {
-    background-color: #BCAAA4;
-}
-
-.link__image {
-    border-radius: 6px;
 }
 
 /* Popup style */
@@ -169,5 +153,5 @@ figcaption {
 
 .popup .link {
     display: inline;
-    text-decoration: none;
+    background-color: white;
 }
