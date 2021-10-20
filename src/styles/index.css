@@ -83,6 +83,7 @@ a {
     overflow: hidden;
     width: 100%;
     min-height: 100px;
+    padding: 2px;
 }
 
 a:nth-child(n) {
@@ -95,6 +96,10 @@ a:nth-child(2n) {
 
 a:nth-child(3n) {
     background-color: #BCAAA4;
+}
+
+.link__image {
+    border-radius: 6px;
 }
 
 /* Popup style */
@@ -164,4 +169,5 @@ figcaption {
 
 .popup .link {
     display: inline;
+    text-decoration: none;
 }
